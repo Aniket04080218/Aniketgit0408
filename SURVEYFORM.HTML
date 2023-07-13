@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="STY.CSS">
+</head>
+<body>
+    <div>
+    <form action="/submit-form" method="post" target="_blank">
+        <fieldset>
+            <legend>SURVEY 
+                 FORM</legend><br>
+            <label for="Name">Full 
+                 Name:</label>
+            <input type="name" 
+             id="Name" 
+            placeholder="Enter Your Name"><br><br>
+            <label for="Email">Email 
+                 Id:</label>
+            <input type="email" 
+             
+        placeholder="abcd@gmail.com" 
+         required>
+             <br><br>
+            <label for="Age">Age: 
+                 
+            </label>
+            <input type="number" 
+             id="Age "><br><br>
+            <label 
+             for="Password">Password: 
+             </label>
+            <input type="password" 
+             id="password" 
+            required><br><br>
+            <label for="option">Which 
+                 Option Best 
+                Describe Your Current 
+                 Role :</label>
+            <select id="option">
+                <option         
+    value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option 
+                value="Employee">Employee</option>
+                <option value="Retire cop">Retire cop</option>
+                <option value="Intern">Intern</option>
+            </select><br><br>
+            <label for="recommend">How likely is that you would recommend this course to a friend?</label><br>
+            <label for="checkbox">
+            <input type="radio" name="Definetely" value="Yes">
+                Definetely
+                <input type="radio" name="Definetely" value="Yes">
+                May Be
+                <input type="radio" name="Definetely" value="Yes">
+                Not Sure
+        </label><br><br>
+        
+        <label for="course">What do you like most in the course:</label>
+            <select id="course">
+                <option value="fun learning">Fun learning</option>
+                <option value="interactive session">interactive session</option>
+                <option value="various prizes">various prizes</option>
+                
+            </select><br><br>
+            <label for="">Things That Should Be Improved In The Future:</label><br>
+            <input type="checkbox">
+             Front-end Projects <br>
+                <input type="checkbox" >
+                Back-end Projects <br>
+                <input type="checkbox">
+                Front-end Projects
+             </select><BR><BR>
+           <button>SUBMIT</button>
+           <button>RESET</button>
+            
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
+

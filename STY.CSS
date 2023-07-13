@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(219, 149, 149, 0.651);
+}        
+div{
+    max-width: 400px;
+   
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
+    box-shadow: 100px;
+}
+
+fieldset{
+    font-style: inherit;
+    font-size: 20PX;
+    color: rgba(223, 212, 220, 0.651);
+    bckground-color: rgb(93, 190, 209);
+    background: linear-gradient(rgba(128, 0, 128, 0.486),rgba(55, 158, 209, 0.722),navy );
+    
+} 
+button{
+    border-radius: 10px;
+    color: rgb(15, 27, 27);
+    background-color: burlywood;
+    font-size: 20px;
+    
+}
+placeholder{
+    color: black;
+}
+dialog{
+    stroke-dasharray: 12px;
+}
