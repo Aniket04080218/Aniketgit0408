@@ -1,0 +1,48 @@
+
+
+.profilecard{
+    border-radius: 40px;
+    width: 350px;
+    padding: 20px;
+    border: 2px solid rgb(252, 247, 247);
+    margin: 10px auto;
+    background-color:rgb(24, 61, 117);
+    
+    color:white;
+    text-align:center;
+   
+    
+}
+.profilecard:hover{
+    opacity: 0.5;
+    color: coral;
+    cursor: pointer;
+
+}
+
+   img{
+    width: 20%;
+    border-radius: 50%;
+    border: 3px solid black;
+    object-fit: cover;
+}
+h1,p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+@media screen and (max-width:700px) {
+    .profilecard{
+        max-width: 400px;
+
+    }
+    .image{
+        width: 120px;
+        height: 120px;
+    }
+}
+        
